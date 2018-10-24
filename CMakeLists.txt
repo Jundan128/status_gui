@@ -20,10 +20,6 @@ catkin_package(
   CATKIN_DEPENDS roscpp message_generation std_msgs
 )
 
-set (status_gui_SRCS src/status_gui/status.cpp)
-set (status_gui_HDRS include/status_gui/status.h)
-set (status_gui_UIS src/status_gui/status.ui)
-
 include_directories(
   include
   ${CMAKE_CURRENT_BINARY_DIR}/..
