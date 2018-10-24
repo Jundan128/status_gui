@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>status</class>
+ <widget class="QWidget" name="status">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>200</height>
+   </rect>
+  </property>
+
+  <property name="windowTitle">
+   <string>Command</string>
+  </property>
+
+  <widget class="QPushButton" name="status_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="icon">
+           <iconset theme="battery">
+            <normaloff>.</normaloff>.</iconset>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="data_baterai">
+   <property name="geometry">
+    <rect>
+     <x>55</x>
+     <y>0</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Change Path Plan</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="status_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>0</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="icon">
+           <iconset theme="battery">
+            <normaloff>.</normaloff>.</iconset>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="data_Suhu">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>0</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Data Suhu</string>
+   </property>
+  </widget>
+
+
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

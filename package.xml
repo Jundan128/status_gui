@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>status_gui</name>
+  <version>0.0.0</version>
+  <description>The status_gui package</description>
+
+  <maintainer email="jundan@todo.todo">jundan</maintainer>
+
+  <license>Jandun</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rqt_gui</build_depend>
+  <build_depend>rqt_gui_cpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <build_export_depend>message_generation</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rqt_gui</build_export_depend>
+  <build_export_depend>rqt_gui_cpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_cpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+	<rqt_gui plugin="${prefix}/plugin.xml" />
+  </export>
+</package>
