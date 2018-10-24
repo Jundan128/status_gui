@@ -22,10 +22,10 @@ catkin_package(
 
 include_directories(
   include
-  ${CMAKE_CURRENT_BINARY_DIR}/..
+  #${CMAKE_CURRENT_BINARY_DIR}/..
   ${catkin_INCLUDE_DIRS}
 )
 
-target_link_libraries(${PROJECT_NAME}
-  ${catkin_LIBRARIES}
-)
+## target_link_libraries(${PROJECT_NAME}
+#  ${catkin_LIBRARIES}
+# ) 
