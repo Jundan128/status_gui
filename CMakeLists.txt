@@ -4,8 +4,6 @@ project(status_gui)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  rqt_gui
-  rqt_gui_cpp
   message_generation
   std_msgs
 )
